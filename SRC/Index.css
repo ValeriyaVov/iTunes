@@ -1,0 +1,164 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'PT Sans', sans-serif;
+  line-height:1.6;
+}
+.navbar{
+  height:40px;
+  background-color:#333;
+  color:#eee;
+}
+.navbar-panel a{
+  width:100%;
+  text-align:center;
+  padding-top:10px;
+  display:inline-block;
+  text-decoration:none;
+  color:#eee;
+}
+.navbar-panel li{
+  list-style: none;
+  display:inline;
+}
+
+.logo{
+ background:URL(https://bradtraversy.github.io/mytunes_landing/img/showcase.jpg) no-repeat center/cover;
+  width:100%;
+  height:100vh;
+}
+.logo-main{
+  color:#fff;
+  text-align:center;
+  max-width: 1000px;
+  margin:0 auto;
+  top:20%;
+  position:relative;
+}
+
+
+
+
+
+.about{
+  background:	#2c2c2c;
+  color:white;
+  width:100%;
+  text-align:center;
+  padding:50px 280px;
+  line-height:1.6;
+}
+
+.about-title::before{
+ content:"\266B";
+}
+.button{
+  background:#a52a2a;
+  border:none;
+  color:white;
+  height:30px;
+  text-align:center;
+  margin: 30px;
+}
+.about-phone{
+  width:100%;
+}
+
+
+
+
+.collection{
+  text-align:center;
+  margin: 30px;
+  line-height:1.6;
+  max-width: 1000px;
+  margin:0 auto;
+  top:20%;
+  position:relative;
+}
+.collection_for{
+  font-size:30px;
+}
+.blue{
+  background:#103063;
+
+}
+
+
+
+.stars{
+  background:URL(https://bradtraversy.github.io/mytunes_landing/img/section-bg.jpg) no-repeat center/cover;
+  width:100%;
+  height:1000px;
+}
+.stars-text{
+  color:white;
+  text-align:center;
+  font-size:21px;
+  padding:150px 100px;}
+ 
+.stars-text p, .stars-text h2{
+  line-height:3.6;
+}
+
+
+
+
+.cards{
+  text-align:left;
+  background:grey;
+  }
+.cards::after{
+  display:block;
+  clear:both;
+  content:"";
+}
+.cards-picture{
+  width:50%;
+  float:left;
+}
+.cards-text{
+  width:50%;
+  float:left;
+  padding: 50px
+}
+.cards-text-small{
+  padding:20px 0px;
+}
+.cards-link{
+  text-decoration:none;
+}
+
+
+
+.partners{
+  background:grey;
+  width:100%;
+  min-width:1200px;
+}
+
+.partners-column{
+  width:25%;
+  float:left;
+  list-style-type:none;
+  padding-left:60px;
+}
+.partners-column-title{
+  font-size:20px;
+  border-bottom: 2px solid black;
+  width:70%;
+}
+
+
+.footer{
+  background:#333;
+  text-align:center;
+  color:white;
+}
+.partners::after{
+  display:block;
+  clear:both;
+  content:"";}
+
+ 
